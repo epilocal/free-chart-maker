@@ -1,0 +1,39 @@
+.button {
+  background-color: #004E64;
+  border-color: #004E64;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3f7a92;
+}
+
+.buttonOutline {
+  background-color: #fff;
+  border-color: #004E64;
+  border-radius: 0.25rem;
+  color: #004E64;
+  cursor: pointer;
+}
+
+.buttonOutline:hover {
+  background-color: #3f7a92;
+  color: #fff;
+}
+
+
+
+.buttonDefault {
+  padding: 0.75rem 2rem;
+}
+
+.buttonLg {
+  padding: 1rem 3rem;
+}
+
+.buttonXl {
+  font-size: 1.125rem;
+  padding: 1.25rem 4rem;
+}

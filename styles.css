@@ -1,0 +1,79 @@
+
+.freeCharts-container {
+  display: flex;
+}
+
+.freeCharts-button-square {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 5px;
+  background-color: #ffffff;
+  border-color: var(--color-primary);
+  border-radius: 0.25rem;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.freeCharts-button-rectangle {
+  margin: 0 10px;
+  color: #ffffff;
+  font-weight: 600;
+  border-color: var(--color-primary);
+  border-radius: 0.25rem;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .75rem;
+}
+
+.freeCharts-config {
+  font-size: 18px;
+}
+
+.freeCharts-config-content {
+  font-size: 14px;
+  width: 100%;
+}
+
+.freeCharts-config-content textarea {
+  font-size: 14px;
+  margin-top: .25rem;
+}
+
+@media (max-width: 1280px) {
+  .freeCharts-config,
+  .freeCharts-preview {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+
+  .freeCharts-config {
+    order: 9999;
+  }
+
+  .freeCharts-container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1280px) {
+  .freeCharts-config {
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .freeCharts-preview {
+    width: 70%;
+    margin: auto;
+    margin: 1rem;
+    padding: 3rem;
+  }
+
+  .freeCharts-container {
+    flex-direction: row;
+  }
+}
